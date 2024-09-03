@@ -9,7 +9,7 @@ const app = express();
 // CORS configuration
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://expensesapp2024.netlify.app/",
+  "https://expensesapp2024.netlify.app",
 ];
 
 app.use(
